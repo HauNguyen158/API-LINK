@@ -8,10 +8,10 @@
 		<version>2.6.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.o8kgroup</groupId>
-	<artifactId>swagger</artifactId>
+	<groupId>com.api</groupId>
+	<artifactId>link</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>swagger</name>
+	<name>link</name>
 	<description>Demo project for Spring Boot and Swagger</description>
 	<properties>
 		<java.version>11</java.version>
@@ -40,6 +40,21 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-cassandra</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>annotationProcessor</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 	</dependencies>
 
